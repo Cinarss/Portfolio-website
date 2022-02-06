@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Open+Sans:wght@500&family=Roboto+Condensed&family=Roboto+Mono:wght@300&family=Source+Serif+4:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&display=swap');
+
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    
+ }
+ 
+ .jumbotron{
+     margin-top: 90px;
+     background: #15181f;
+     
+ }
+
+p,li{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+ .jumbotron h1{
+    background: #15181f;
+    
+    
+ }
+
+ .jumbotron p{
+     background-color: #15181f;
+ }
+
+
+ h3{
+     color: aqua;
+     padding-bottom: 30px;
+ }
+ 
+ ul {
+    list-style: none;
+}
+
+li {
+    position: relative;
+}
+
+li:before {
+    content: "•";
+    position: absolute;
+    left: -1em;
+    color: aqua;
+}
+
+
+.logo a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+
+}
+    
+.logo h2{
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 160px;
+}
+
+    
+
+.logo img{
+    position: absolute;
+    top: 55px;
+    width: 47px;
+    margin-left: 100px;
+    height: 47px;
+    
+}
+
+.back h1{
+    color: #fff;
+    position:absolute;
+    top:45px;
+    right: 100px;
+    font-size: 25px;
+}
+
+.fa-moon{
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    margin-top: 25px;
+    color: #15181f;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 7px;
+    
+  
+  }
+
+
+.progress-bar{
+    background-color: aqua  ;
+}
+
+
+.dark-mode{
+    background: #D3E4CD;
+    color: #000;
+}
+
+.dark-mode h1{
+    color: #000;
+}
+
+.dark-mode h2{
+    color: #000;
+}
+
+
+.dark-mode .jumbotron{
+    background: #99A799;
+  }
+
+.dark-mode .jumbotron h1{
+    background-color: #a0afa8;
+  }
+
+
+  .dark-mode .jumbotron p{
+    background-color: #a0afa8;
+  }
+
+
+  button{
+      background-color: #15181f;
+      border: 3px solid aqua;
+      border-radius: 10px;
+  }
+
+  .bg{
+      background: #15181f;
+      border: 3px solid aqua;
+      border-radius: 10px;
+  }
+
+
+
+input{
+    background: #15181f;
+    border: 0;
+    cursor:text;
+    color: #fff;
+}
+
+.s{
+    background: #fff;
+}
+
+#myTooltip{
+    display: none;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  /*
+  <div class="flex-grow flex items-center gap-2 bg rounded-lg text-lg bg-opacity-30 v-popper--has-tooltip">
+     <input type="text" class="w-full rounded-lg bg focus:outline-none p-4" value="cinarsak">
+     <div class="p-4 rounded-r-lg bg-gray-900 bg-opacity-30 h-full flex items-center justify-center"> 
+      <svg data-v-ed88ae78="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"  width="30" height="30" class="text-gray-200 h-7 w-7"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+     </div>
+   </div>
+   */
