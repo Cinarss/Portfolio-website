@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&display=swap');
+body{
+    background: #000;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #000;
+    margin-top: 150px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+
+.name h2{
+    font-size:30px ;
+    
+    margin-top: -135px;
+    
+}
+
+.logo a{
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 0;
+    
+}
+    
+
+.logo img{
+    position: absolute;
+    top: 40px;
+    width: 47px;
+    margin-left: -55px;
+    height: 47px;
+    
+}
+
+
+.card{
+    width: 250px;
+    background-color: #15181f;
+    padding: 30px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    transition: 1s;
+   
+
+}
+
+.card-title{
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.card-content{
+    font-size:15px ;
+    text-align: center;
+    padding-bottom:15px ;
+}
+
+.btn{
+    
+    padding:7px ;
+    border-radius: 15px;
+    font-size: 13px;
+    border: 0;
+    background-color: #99A799;
+    cursor:pointer;
+    justify-items: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 0 0 1rem #fff;
+}
+
+.btn:hover{
+    font-size: 15px;
+    background: #fff;
+    transition: 1s;
+}
+
+.logo a{
+    color: #fff;
+    left: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.back h1{
+    color: #fff;
+    position: absolute;
+    top:25px;
+    right: 95px;
+    font-size: 25px;
+    
+
+    
+}
+
+
+hr{
+    background-color: aqua;
+    width: 99%;
+    margin: 0 ,auto;
+    padding: 5px;
+    
+    margin-top: 0;
+    border: 0;
+}
+
+.bottom-line{
+    background-color: aqua;
+    position: relative;
+    bottom: -15px;
+    border: 0;
+}
+
+.social-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+
+.social-list a{
+    color: #fff;
+    font-size: 35px;
+    margin: 8px;
+    
+}
+
+
+  .share{
+      color: #fff;
+      position: absolute;
+      right: 90px;
+      font-size: 15px;
+  }
+  
+  .last-post h1{
+      color: aliceblue;
+      font-size: 23px;
+      position: absolute;
+      top: 130px;
+      
+  }
+
+  .fa-moon{
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    margin-top: 25px;
+    color: #15181f;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 7px;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  
+  .dark-mode {
+      background: #D3E4CD;;
+  }
+
+  .dark-mode .container{
+    background: #99A799;
+  }
+
+  .dark-mode h1{
+      color: #000;
+  }
+
+  .dark-mode h2{
+    color: #000;
+}
+
+.dark-mode h3{
+    color: #000;
+}
+
+.dark-mode .card:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 0 0 1rem #000;
+     
+}
+
+
+.dark-mode .social-list a{
+    color: #000;
+}
+
+
+.dark-mode .card{
+    background-color: #505a6a;
+
+}

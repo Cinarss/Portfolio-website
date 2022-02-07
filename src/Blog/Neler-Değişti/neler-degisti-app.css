@@ -1,0 +1,26 @@
+@media screen and (max-width: 991px){
+
+    .logo img{
+        display: none;
+    }
+    .logo h2{
+        font-size: 20px;
+        margin-left: 0px;
+        position: absolute;
+        left: 7px;
+    }
+
+    .back h1{
+        margin: 0;
+        position: absolute;
+        font-size: 20px;
+        right: 80px;
+        top: 60px;
+    }
+
+    .fa-moon{
+        margin-top:35px;
+    }
+   
+
+}
